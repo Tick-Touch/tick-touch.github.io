@@ -5,11 +5,16 @@
   <body>
     <h1>Hello World</h1>
 
+    <p id="initData"></p>
+    <p id="platform"></p>
 
     <script>
       let app = window.Telegram.WebApp;
       console.log(app.initData);
       console.log(app.platform);
+
+      document.getElementById("initData").innerHTML(app.initData);
+      document.getElementById("platform").innerHTML(app.platform);
       
     </script>
   </body>
