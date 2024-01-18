@@ -5,7 +5,9 @@
   <body>
     <h1>Hello World</h1>
 
+    <p>initData</p>
     <p id="initData"></p>
+    <p>Platform</p>
     <p id="platform"></p>
 
     <script>
@@ -13,8 +15,8 @@
       console.log(app.initData);
       console.log(app.platform);
 
-      document.getElementById("initData").innerHTML(app.initData);
-      document.getElementById("platform").innerHTML(app.platform);
+      document.getElementById("initData").innerHTML = app.initData;
+      document.getElementById("platform").innerHTML = app.platform;
       
     </script>
   </body>
