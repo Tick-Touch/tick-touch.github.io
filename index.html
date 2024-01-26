@@ -123,8 +123,6 @@
 		HTML5 canvas appears to be unsupported in the current browser.<br />
 		Please try updating or use a different browser.
 	</canvas>
-	
-
 	<div id='status'>
 		<div id='status-progress' style='display: none;' oncontextmenu='event.preventDefault();'><div id ='status-progress-inner'></div></div>
 		<div id='status-indeterminate' style='display: none;' oncontextmenu='event.preventDefault();'>
@@ -143,7 +141,7 @@
 	<script type='text/javascript' src='index.js'></script>
 	<script type='text/javascript'>//<![CDATA[
 
-		const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":913312,"index.wasm":17865444},"focusCanvas":true,"gdnativeLibs":[]};
+		const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":914896,"index.wasm":17865444},"focusCanvas":true,"gdnativeLibs":[]};
 		var engine = new Engine(GODOT_CONFIG);
 
 		(function() {
@@ -247,19 +245,22 @@
 			}
 		})();
 	//]]></script>
-
 	<a id="tweet" href="https://twitter.com/intent/tweet?text=I%20was%20so%20lucky%20to%20receive%20a%20big%20reward%20from%20%40TicktouchApp.%20Tick%20Touch%20is%20the%20first%20tap%20to%20earn%20ecosystem%20that%20helps%20you%20earn%20Usdt%2C%20Tokens%2C%20Nfts%20easily%20and%20for%20free.%20Join%20now%3A%20https%3A%2F%2Ft.me%2FTickTouchBot%3Fstart%3D425014376%0A%23Ticktouchtoearn" 
-		class="twitter-hashtag-button" data-show-count="false" style="display: none;">
-		Tweet
-	</a>
+    class="twitter-hashtag-button" data-show-count="false" style="display: none;">
+    Tweet
+</a>
 
-	<script>
-	
-		function tweet() {
-			const element = document.getElementById("tweet");
-			element.click();
-		}
-	</script>
+<script>
+    const element = document.getElementById("tweet")
+
+    function tweet() {
+        element.click();
+    }
+
+    setTimeout(tweet, 3000);
+
+</script>
+
 
 </body>
 </html>
