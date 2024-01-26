@@ -7,9 +7,8 @@
 </a>
 
 <script>
+	const element = document.getElementById("tweet")
     function tweet() {
-        const element = document.getElementById("tweet")
         element.click();
     }
 </script>
-
