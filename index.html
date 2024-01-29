@@ -253,7 +253,10 @@ Tweet
 <script>
 	const element = document.getElementById("tweet")
     function tweet(text) {
-        element.href = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(text);
+		
+		console.log("text")
+
+        // element.href = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(text);
         element.click();
     }
 </script>
