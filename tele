@@ -9,7 +9,7 @@ Tweet
 <script>
 	const element = document.getElementById("tweet")
     function tweet(referral) {
-        const text = "I was so lucky to receive a big reward from @TicktouchApp. Tick Touch is the first tap to earn ecosystem that helps you earn Usdt, Tokens, Nfts easily and for free. Join now: https://t.me/TickTouchBot?start=" + referral + "\n#Ticktouchtoearn"
+        const text = "I was so lucky to receive a big reward from @TicktouchApp. Tick Touch is the first tap to earn ecosystem that helps you earn Usdt, Tokens, Nfts easily and for free. Join now: https://t.me/TickTouchBot?start=" + referral + "\n\n#Ticktouchtoearn"
 
         element.href = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(text);
         element.click();
