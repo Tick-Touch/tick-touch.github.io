@@ -1,10 +1,12 @@
 <script type='text/javascript' src="https://telegram.org/js/telegram-web-app.js"></script>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<a id="tweet" href="https://twitter.com/intent/tweet?text=" 
-    class="twitter-hashtag-button" data-show-count="false" style="display: none !important;">
-Tweet
-</a>
+<div style="display: none !important;">
+    <a id="tweet" href="https://twitter.com/intent/tweet?text=" 
+        class="twitter-hashtag-button" data-show-count="false">
+    Tweet
+    </a>
+</div>
 
 <script>
 	const element = document.getElementById("tweet")
